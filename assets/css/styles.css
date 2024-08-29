@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("variables.css"); /* importing the css variables file */
+
+body {
+  height: 100%;
+  line-height: 1;
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  max-width: 1440px; /* Desktop max-width */
+  margin-inline: auto; /* left and right */
+}
