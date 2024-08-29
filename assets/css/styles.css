@@ -37,3 +37,41 @@ header .navigation ul > li:not(:last-child) {
   margin-right: 25px;
 }
 /* end of header section */
+
+/* main content area */
+main .top-area {
+  display: flex;
+  gap: 25px;
+}
+
+main .top-area > * {
+  flex: 1;
+}
+
+main .top-area .top-bottom-area {
+  margin-top: 30px;
+  display: flex;
+  gap: 50px;
+}
+
+main .top-area .top-bottom-area h1 {
+  color: var(--very-dark-blue);
+  font-size: 42px;
+  font-weight: var(--fw-bold);
+  font-family: var(--inter-font);
+}
+
+main .top-area .top-bottom-area p {
+  color: var(--dark-grayish-blue);
+  font-size: 14px;
+  font-weight: var(--fw-light);
+}
+
+main .top-area .top-bottom-area button {
+  padding: 10px 20px;
+  background-color: var(--very-dark-blue);
+  color: var(--off-white);
+  margin-top: 20px;
+}
+
+/* end of main content area */
